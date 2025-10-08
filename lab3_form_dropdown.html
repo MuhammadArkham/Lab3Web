@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Form dengan Dropdown & Listbox</h1>
+    </header>
+
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pendaftaran</legend>
+
+            <p>
+                <label for="jurusan">Jurusan</label>
+                <select id="jurusan" name="jurusan">
+                    <option value="TI">Teknik Informatika</option>
+                    <option value="SI">Sistem Informasi</option>
+                    <option value="MI">Manajemen Informatika</option>
+                    <option value="TE">Teknik Elektro</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="minat">Bidang Minat</label><br>
+                <select id="minat" name="minat[]" size="4" multiple>
+                    <option value="Web">Pengembangan Web</option>
+                    <option value="AI">Kecerdasan Buatan</option>
+                    <option value="Network">Jaringan Komputer</option>
+                    <option value="Data">Analisis Data</option>
+                </select>
+            </p>
+
+            <p><input type="submit" value="Kirim"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
