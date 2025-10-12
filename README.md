@@ -49,7 +49,7 @@ Saya mengikuti langkah-langkah dari awal sampai akhir secara berurutan:
 
 ---
 
-## 3. Lakukan commit setiap selesai satu pekerjaan
+## 3. Lakukan commit 
 Setiap selesai mengerjakan satu file, saya langsung melakukan commit agar progress-nya tercatat.  
 Berikut urutan commit yang saya buat:
 1. `add lab3_list.html`
@@ -58,7 +58,4 @@ Berikut urutan commit yang saya buat:
 4. `add lab3_form_dropdown.html`
 
 
-
-## 5. Push ke repository GitHub masing-masing
-Setelah semuanya selesai dan sudah saya commit, saya push ke GitHub menggunakan perintah:
 
